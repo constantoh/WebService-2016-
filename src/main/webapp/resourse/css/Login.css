@@ -1,0 +1,175 @@
+#body {
+	margin: 10 auto;
+}
+#login_container{
+	
+    text-align:left;
+    padding : 0 auto;
+}
+#Logo{
+	position=fixed;
+	
+    margin-bottom:20px;
+}
+#menus{
+	margin: 2px 2px 2px 2px;
+}
+
+#main1{
+	float:left;
+	width:49%;
+	height:70%;
+	
+	padding-top:5px;
+	padding-left:1px;
+	
+	margin-left:2px;
+	margin-right:5px;
+	margin-bottom:5px;
+}
+#main2{
+	float:left;
+	width:49%;
+	height:70%;
+	
+	padding-top:5px;
+	padding-left:1px;
+	
+	margin-left:2px;
+	margin-right:5px;
+	margin-bottom:5px;
+}
+#main3{
+	float:left;
+	width:49%;
+	height:70%;
+	
+	padding-top:5px;
+	padding-left:1px;
+	
+	margin-left:2px;
+	margin-right:5px;
+	margin-bottom:5px;
+}
+#main4{
+	float:left;
+	width:49%;
+	height:70%;
+	
+	padding-top:5px;
+	padding-left:1px;
+	
+	margin-left:2px;
+	margin-right:5px;
+	margin-bottom:5px;
+}
+#siedMenus{
+    padding-top:30px;
+    float:left;
+    width:150px;
+    height:1000px;
+}
+#WTSBody{
+	float:left;
+	width:80%;
+	height:100%;
+	font-size:20px;
+	padding-top:5px;
+}
+#GROUPBody{
+	float:left;
+	width:80%;
+	height:100%;
+	font-size:20px;
+	padding-top:5px;
+}
+
+#mailBox{
+	width:100%;
+	height:90%;
+	margin_top:10px;
+}
+#button{
+	border:0;
+	outline:0;
+	width:120;
+	height:30;
+	vertical-align: middle;
+	margin: 0px 0px 0px 20px;
+}
+#buttonDaily{
+	border:0;
+	outline:0;
+	width:120;
+	height:30;
+	vertical-align: middle;
+	margin: 0px 0px 0px 20px;
+}
+#buttonCustomer{
+	border:0;
+	outline:0;
+	width:120;
+	height:30;
+	vertical-align: middle;
+	margin: 0px 0px 0px 20px;
+}
+#buttonCROOM{
+	border:0;
+	outline:0;
+	width:120;
+	height:30;
+	vertical-align: middle;
+	margin: 0px 0px 0px 20px;
+}
+#buttonCROOMa{
+	border:0;
+	outline:0;
+	width:100;
+	height:30;
+	vertical-align: middle;
+	margin: 10px 0px 0px 30px;
+}
+#buttonCROOMb{
+	border:0;
+	outline:0;
+	width:100;
+	height:30;
+	vertical-align: middle;
+	margin: 10px 0px 0px 30px;
+}
+#buttonCROOMc{
+	border:0;
+	outline:0;
+	width:100;
+	height:30;
+	vertical-align: middle;
+	margin: 10px 0px 0px 30px;
+}
+#buttonCROOMd{
+	border:0;
+	outline:0;
+	width:100;
+	height:30;
+	vertical-align: middle;
+	margin: 10px 0px 0px 30px;
+}
+#buttonCROOMe{
+	border:0;
+	outline:0;
+	width:100;
+	height:30;
+	vertical-align: middle;
+	margin: 10px 0px 0px 30px;
+}
+#buttonADDR{
+	border:0;
+	outline:0;
+	width:120;
+	height:30;
+	vertical-align: middle;
+	margin: 0px 0px 0px 20px;
+} 
+#footer{
+	clear:both;
+	text-align:center;
+}

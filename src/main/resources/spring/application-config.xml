@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+		http://cxf.apache.org/jaxws http://cxf.apache.org/schemas/jaxws.xsd"
+	xmlns:jaxws="http://cxf.apache.org/jaxws"
+	xmlns:soap="http://cxf.apache.org/bindings/soap">
+    
+    <!-- Uncomment and add your base-package here: 
+         <context:component-scan
+            base-package="com.mocomsys.service"/> -->
+
+	<import resource="classpath:META-INF/cxf/cxf-servlet.xml" />
+	<import resource="classpath:META-INF/cxf/cxf.xml" />
+	<import resource="classpath:META-INF/cxf/cxf-extension-soap.xml" />
+	
+	
+	<bean id="getCustomerImpl" class="com.mocomsys.sangsoo.service.CustomerCheckImpl"/>
+	
+	<jaxws:endpoint id="customer" implementor="com.mocomsys.sangsoo.service.CustomerCheckImpl" address="/CustomerWs">
+		<jaxws:binding>
+			<soap:soapBinding style="document" use="literal" version="1.1"/>
+		</jaxws:binding>
+	</jaxws:endpoint>
+	
+	<bean id="getSiteImpl" class="com.mocomsys.sangsoo.service.SiteCheckImpl"/>
+	
+	<jaxws:endpoint id="site" implementor="com.mocomsys.sangsoo.service.SiteCheckImpl" address="/SiteWs">
+		<jaxws:binding>
+			<soap:soapBinding style="document" use="literal" version="1.1"/>
+		</jaxws:binding>
+	</jaxws:endpoint>
+	
+	<bean id="getEmpImpl" class="com.mocomsys.sangsoo.service.EmpCheckImpl"/>
+	
+	<jaxws:endpoint id="emp" implementor="com.mocomsys.sangsoo.service.EmpCheckImpl" address="/EmpWs">
+		<jaxws:binding>
+			<soap:soapBinding style="document" use="literal" version="1.1"/>
+		</jaxws:binding>
+	</jaxws:endpoint>
+	
+	<bean id="getDailyImpl" class="com.mocomsys.sangsoo.service.DailyCheckImpl"/>
+	
+	<jaxws:endpoint id="daily" implementor="com.mocomsys.sangsoo.service.DailyCheckImpl" address="/DailyWs">
+		<jaxws:binding>
+			<soap:soapBinding style="document" use="literal" version="1.1"/>
+		</jaxws:binding>
+	</jaxws:endpoint>
+	
+	<bean id="getResourceImpl" class="com.mocomsys.sangsoo.service.ResourceCheckImpl"/>
+	
+	<jaxws:endpoint id="resource" implementor="com.mocomsys.sangsoo.service.ResourceCheckImpl" address="/ResourceWs">
+		<jaxws:binding>
+			<soap:soapBinding style="document" use="literal" version="1.1"/>
+		</jaxws:binding>
+	</jaxws:endpoint>
+	
+	<bean id="getMailImpl" class="com.mocomsys.sangsoo.service.MailCheckImpl"/>
+	
+	<jaxws:endpoint id="mail" implementor="com.mocomsys.sangsoo.service.MailCheckImpl" address="/MailWs">
+		<jaxws:binding>
+			<soap:soapBinding style="document" use="literal" version="1.1"/>
+		</jaxws:binding>
+	</jaxws:endpoint>
+	
+	<bean id="getAddrImpl" class="com.mocomsys.sangsoo.service.AddressCheckImpl"/>
+	
+	<jaxws:endpoint id="addr" implementor="com.mocomsys.sangsoo.service.AddressCheckImpl" address="/AddrWs">
+		<jaxws:binding>
+			<soap:soapBinding style="document" use="literal" version="1.1"/>
+		</jaxws:binding>
+	</jaxws:endpoint>
+</beans>
+
+
